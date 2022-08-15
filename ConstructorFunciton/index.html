@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructor Function</title>
+</head>
+
+<body>
+    <h1>Constructor Function</h1>
+    <p>
+        The constructor method is a special method of a class for creating and initializing an object instance of that class.
+    </p>
+    <h2>This Keyword</h2>
+    <p>
+        In JavaScript the "this" keypwrd refers to an object. Which object
+        dependa on how "this" is being invoked(used or called). 
+
+        The "this" keyword refers to different objects depending on how it is used -
+        <ul>
+            <li>In an object method, "this" refers to the object.</li>
+            <li>Alone "this" refers to the global object.</li>
+            <li>In a function, in strict mode, this is undefined.</li>
+            <li>In an event, "this" refers to the element that received the event.</li>
+            <li>Methods like call(), apply() adn bind() can refer "this" to any object.</li>
+        </ul>
+    </p>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
